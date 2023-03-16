@@ -1,0 +1,241 @@
+ .phon{
+     background: #ffcaaa;
+ }
+ .offer{
+     position: absolute;
+     background:#ffffff;
+     height:500%;
+     top: 100%;
+     left: 0px;
+     border-radius: 40px 40px 0px 0px;
+     width:100%;
+ }
+.main{
+    position:absolute;
+}
+.main_text{
+    position:absolute;
+    font-size:50px;
+    width:700px;
+    left:200px;
+    top:150px;
+}
+.video{
+    position:fixed;
+    width:100%;
+    left:0px;
+    top:0px;
+}
+.protection_for_video{
+    position:absolute;
+    width:100%;
+    height:100%;
+    opacity:0%;
+    left:-10px;
+}
+.offer_text1{
+    position:absolute;
+    background: #ff892b;
+    font-size:24px;
+    top:70px;
+    left:-250px;
+    border-radius:0px 50px 50px 0px;
+    width:40%;
+    height:3.6%;
+    padding-left:80px;
+    padding-top:20px;
+    align:center;
+    box-shadow:0px 0px 0px black;
+    opacity:0%;
+    transition:1.5s;
+    
+}
+.offer_text2{
+    position:absolute;
+    background: #ff6a6a;
+    font-size:22px;
+    top:230px;
+    left:717.3px;
+    border-radius:50px 0px 0px 50px;
+    width:44.55%;
+    height:2.3%;
+    padding-left:20px;
+    padding-top:40px;
+    align:center;
+    box-shadow:0px 0px 0px black;
+    opacity:0%;
+    transition:1.5s;
+}
+.offer_text3{
+    position:absolute;
+    background: #fffc6a;
+    font-size:24px;
+    top:390px;
+    left:-250px;
+    border-radius:0px 50px 50px 0px;
+    width:40%;
+    height:2.6%;
+    padding-left:80px;
+    padding-top:40px;
+    align:center;
+    box-shadow:0px 0px 0px black;
+    opacity:0%;
+    transition:1.5s;
+}
+
+.offer_text4{
+    position:absolute;
+    background: #80ff98;
+    font-size:24px;
+    top:880px;
+    left:400px;
+    border-radius:50px;
+    width:50%;
+    height:4.3%;
+    padding-left:30px;
+    padding-top:40px;
+    align:center;
+    border:dashed 8px #0a7510;
+    box-shadow:0px 0px 0px #40ff63;
+    opacity:0%;
+    transition:1.5s;
+}
+.dash{
+    position:absolute;
+    border-radius:40px;
+    width:82%;
+    height:12%;
+    border:solid 7px #000000;
+    opacity:0%;
+    top:140px;
+    left:-10px;
+    transition:3s;
+}
+.dash.on{
+    border:dashed 7px #000000;
+    opacity:50%;
+    top:140px;
+    left:-10px;
+    transition:3s;
+}
+.ded_musey{
+    position:absolute;
+    width:25%;
+    top:550px;
+    left:-260px;
+    transform:rotate(45deg);
+    transition:2s;
+}
+.offer_text1.on{
+    top:70px;
+    left:-50px;
+    box-shadow:0px 0px 20px black;
+    opacity:100%;
+    transition:1.5s;
+}
+.offer_text2.on{
+    top:230px;
+    left:517.3px;
+    width:44.55%;
+    box-shadow:0px 0px 20px black;
+    opacity:100%;
+    transition:1.5s;
+}
+.offer_text3.on{
+    top:390px;
+    left:-50px;
+    box-shadow:0px 0px 20px black;
+    opacity:100%;
+    transition:1.5s;
+}
+
+.offer_text4.on{
+    top:680px;
+    left:400px;
+    box-shadow:0px 0px 20px #40ff63;
+    opacity:100%;
+    transition:1.5s;
+}
+.ded_musey.on{
+    position:absolute;
+    top:550px;
+    left:0px;
+    transform:rotate(0deg);
+    transition:2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(width:2000px){
+    .main_text {
+        position: absolute;
+        font-size: 106px;
+        width: 1500px;
+        left: 440px;
+        top: 310px;
+    }
+    .offer_text1 {
+        font-size: 48px;
+        top: 71px;
+        left: -250px;
+        border-radius: 0px 80px 80px 0px;
+        width: 40%;
+        height: 2.3%;
+        padding-left: 80px;
+        padding-top: 49px;
+    }
+    .offer_text1.on {
+        top: 140px;
+        left: -50px;
+    }
+    .offer_text2.on {
+        top: 334px;
+        left: 1088.3px;
+        width: 41.6%;
+    }
+    .offer_text2 {
+        font-size: 40px;
+        top: 334px;
+        left: 717.3px;
+        border-radius: 70px 0px 0px 70px;
+        width: 44.55%;
+        height: 2%;
+        padding-left: 80px;
+        padding-top: 45px;
+    }
+    .offer_text3 {
+        top: 550px;
+        left: -250px;
+        border-radius: 0px 80px 80px 0px;
+        width: 40%;
+        height: 2.3%;
+        padding-left: 80px;
+        padding-top: 46px;
+        font-size:50px;
+    }
+    .offer_text3.on{
+        top: 550px;
+        left: -50px;
+    }
+    .dash {
+        height: 8%;
+        top: 260px;
+        left: -10px;
+    }
+    .dash.on{
+        top: 260px;
+    }
+
+}
