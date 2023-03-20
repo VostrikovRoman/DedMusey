@@ -1,15 +1,15 @@
  .phon{
      background: #ffcaaa;
  }
- .offer{
-     position: absolute;
-     background:#ffffff;
-     height:500%;
-     top: 100%;
-     left: 0px;
-     border-radius: 40px 40px 0px 0px;
-     width:100%;
- }
+.offer {
+    position: absolute;
+    background: #ffffff;
+    height: 500%;
+    top: 520px;
+    left: 0px;
+    border-radius: 40px 40px 0px 0px;
+    width: 100%;
+}
 .main{
     position:absolute;
 }
@@ -19,6 +19,7 @@
     width:700px;
     left:200px;
     top:150px;
+    font-family:'VAG World Bold';
 }
 .video{
     position:fixed;
@@ -33,83 +34,86 @@
     opacity:0%;
     left:-10px;
 }
-.offer_text1{
-    position:absolute;
+.offer_text1 {
+    position: absolute;
     background: #ff892b;
-    font-size:24px;
-    top:70px;
-    left:-250px;
-    border-radius:0px 50px 50px 0px;
-    width:40%;
-    height:3.6%;
-    padding-left:80px;
-    padding-top:20px;
-    align:center;
-    box-shadow:0px 0px 0px black;
-    opacity:0%;
-    transition:1.5s;
-    
+    font-size: 24px;
+    top: 70px;
+    left: -250px;
+    border-radius: 0px 50px 50px 0px;
+    width: 400px;
+    height: 100px;
+    padding-left: 80px;
+    padding-top: 20px;
+    align: center;
+    box-shadow: 0px 0px 0px black;
+    opacity: 0%;
+    transition: 1.5s;
+    font-family: 'VAG World Bold';
 }
-.offer_text2{
-    position:absolute;
+.offer_text2 {
+    position: absolute;
     background: #ff6a6a;
-    font-size:22px;
-    top:230px;
-    left:717.3px;
-    border-radius:50px 0px 0px 50px;
-    width:44.55%;
-    height:2.3%;
-    padding-left:20px;
-    padding-top:40px;
-    align:center;
-    box-shadow:0px 0px 0px black;
-    opacity:0%;
-    transition:1.5s;
+    font-size: 22px;
+    top: 230px;
+    left: 717.3px;
+    left: 517.3px;
+    border-radius: 50px 0px 0px 50px;
+    width: 443px;
+    height: 88px;
+    padding-left: 20px;
+    padding-top: 24px;
+    align: center;
+    box-shadow: 0px 0px 0px black;
+    transition: 1.5s;
+    font-family: 'VAG World Bold';
 }
-.offer_text3{
-    position:absolute;
+.offer_text3 {
+    position: absolute;
     background: #fffc6a;
-    font-size:24px;
-    top:390px;
-    left:-250px;
-    border-radius:0px 50px 50px 0px;
-    width:40%;
-    height:2.6%;
-    padding-left:80px;
-    padding-top:40px;
-    align:center;
-    box-shadow:0px 0px 0px black;
-    opacity:0%;
-    transition:1.5s;
+    font-size: 24px;
+    top: 390px;
+    left: -250px;
+    border-radius: 0px 50px 50px 0px;
+    width: 400px;
+    height: 90px;
+    padding-left: 80px;
+    padding-top: 40px;
+    align: center;
+    box-shadow: 0px 0px 0px black;
+    opacity: 0%;
+    transition: 1.5s;
+    font-family: 'VAG World Bold';
 }
 
-.offer_text4{
-    position:absolute;
+.offer_text4 {
+    position: absolute;
     background: #80ff98;
-    font-size:24px;
-    top:880px;
-    left:400px;
-    border-radius:50px;
-    width:50%;
-    height:4.3%;
-    padding-left:30px;
-    padding-top:40px;
-    align:center;
-    border:dashed 8px #0a7510;
-    box-shadow:0px 0px 0px #40ff63;
-    opacity:0%;
-    transition:1.5s;
+    font-size: 28px;
+    top: 880px;
+    left: 350px;
+    border-radius: 50px;
+    width: 500px;
+    height: 148px;
+    padding-left: 30px;
+    padding-top: 40px;
+    align: center;
+    border: dashed 8px #0a7510;
+    box-shadow: 0px 0px 0px #40ff63;
+    opacity: 0%;
+    transition: 1.5s;
+    font-family: 'VAG World Bold';
 }
-.dash{
-    position:absolute;
-    border-radius:40px;
-    width:82%;
-    height:12%;
-    border:solid 7px #000000;
-    opacity:0%;
-    top:140px;
-    left:-10px;
-    transition:3s;
+.dash {
+    position: absolute;
+    border-radius: 40px;
+    width: 800px;
+    height: 1000px;
+    border: solid 7px #000000;
+    opacity: 0%;
+    top: 140px;
+    left: -10px;
+    transition: 3s;
 }
 .dash.on{
     border:dashed 7px #000000;
@@ -133,14 +137,6 @@
     opacity:100%;
     transition:1.5s;
 }
-.offer_text2.on{
-    top:230px;
-    left:517.3px;
-    width:44.55%;
-    box-shadow:0px 0px 20px black;
-    opacity:100%;
-    transition:1.5s;
-}
 .offer_text3.on{
     top:390px;
     left:-50px;
@@ -149,16 +145,16 @@
     transition:1.5s;
 }
 
-.offer_text4.on{
-    top:680px;
-    left:400px;
-    box-shadow:0px 0px 20px #40ff63;
-    opacity:100%;
-    transition:1.5s;
+.offer_text4.on {
+    top: 750px;
+    left: 350px;
+    box-shadow: 0px 0px 20px #40ff63;
+    opacity: 100%;
+    transition: 1.5s;
 }
 .ded_musey.on{
     position:absolute;
-    top:550px;
+    top:690px;
     left:0px;
     transform:rotate(0deg);
     transition:2s;
@@ -178,64 +174,47 @@
 
 
 
-@media(width:2000px){
-    .main_text {
-        position: absolute;
-        font-size: 106px;
-        width: 1500px;
-        left: 440px;
-        top: 310px;
+@media (width:1000px){
+    .offer_text2{
+        left:537.3px;
     }
-    .offer_text1 {
-        font-size: 48px;
-        top: 71px;
-        left: -250px;
-        border-radius: 0px 80px 80px 0px;
-        width: 40%;
-        height: 2.3%;
-        padding-left: 80px;
-        padding-top: 49px;
-    }
-    .offer_text1.on {
-        top: 140px;
-        left: -50px;
-    }
-    .offer_text2.on {
-        top: 334px;
-        left: 1088.3px;
-        width: 41.6%;
-    }
+}
+@media (width:1100px) {
     .offer_text2 {
-        font-size: 40px;
-        top: 334px;
-        left: 717.3px;
-        border-radius: 70px 0px 0px 70px;
-        width: 44.55%;
-        height: 2%;
-        padding-left: 80px;
-        padding-top: 45px;
+        left: 636.3px;
     }
-    .offer_text3 {
-        top: 550px;
-        left: -250px;
-        border-radius: 0px 80px 80px 0px;
-        width: 40%;
-        height: 2.3%;
-        padding-left: 80px;
-        padding-top: 46px;
-        font-size:50px;
+}
+@media (width:1200px) {
+    .offer_text2 {
+        left: 737.3px;
     }
-    .offer_text3.on{
-        top: 550px;
-        left: -50px;
+}
+@media (width:1300px) {
+    .offer_text2 {
+        left: 837.3px;
     }
-    .dash {
-        height: 8%;
-        top: 260px;
-        left: -10px;
+}
+@media (width:1400px) {
+    .offer_text2 {
+        left: 937.3px;
     }
-    .dash.on{
-        top: 260px;
-    }
+}
 
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'VAG World Bold';
+    src: url('fonts/vag_world_bold.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/vag_world_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('fonts/vag_world_bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/vag_world_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('fonts/vag_world_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/vag_world_bold.svg#vag_world_bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
