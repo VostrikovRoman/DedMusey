@@ -173,7 +173,7 @@
     width:200px;
     left:200px;
     top:1900px;
-    transform:scale(0.1);
+    transform:scale(0.01);
 }
 .ico2{
     position:absolute ;
@@ -181,7 +181,7 @@
     width:230px;
     left:650px;
     top:1900px;
-    transform:scale(0.1);
+    transform:scale(0.01);
     
 }
 .ico3{
@@ -190,7 +190,7 @@
     width:230px;
     left:200px;
     top:2300px;
-    transform:scale(0.1);
+    transform:scale(0.01);
     
 }
 .ico4{
@@ -199,7 +199,7 @@
     width:230px;
     left:650px;
     top:2300px;
-    transform:scale(0.1);
+    transform:scale(0.01);
     
 }
 .ico_text{
